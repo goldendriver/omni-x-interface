@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.react-3d-carousel .slider-container .slider-content .slider-single .slider-single-content {
+    box-shadow: none !important;
+}
+
+.react-3d-carousel .slider-container .slider-right div, .react-3d-carousel .slider-container .slider-left div {
+    border: none !important;
+}
+
+.fa-arrow-right:before {
+    content: "\f054" !important;
+}
+
+.fa-arrow-left:before {
+    content: "\f053" !important;
+}
+
+.bg-sidebar-hover {
+    background-color: rgba(180, 68, 249, 0.15);
+}
+button.sidebar {
+    padding-left: 100px;
+}
+.sidebar.active {
+    background-color: #B444F9 !important;
+    color: #FEFEFF !important;
+}
+
+.img-network {
+    width: 36px;
+    height: 36px;
+}
+
+.img-ethereum {
+    background-image: url(/svgs/ethereum.svg);
+}
+
+.sidebar-icon {
+    height: 56px;
+    width: 100%;
+    display: flex;
+}
+
+.bg-wallet-output {
+    background-image: url(/sidebar/wallet_output.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.fade-left{
+    background: linear-gradient(to right, #F8F9FA, #f8f9fa00);
+    border-radius: 14px;
+    z-index:2;
+    width: 15%;
+    height:100%;
+    left:40px;
+}
+.fade-right{
+    background: linear-gradient(to left, #F8F9FA, #f8f9fa00);
+    border-radius: 14px;
+    z-index:2;
+    width: 15%;
+    height:100%;
+    right:40px;
+}
+.slide{
+    background: #F8F9FA;
+    border-radius: 14px;
+    z-index:2;
+    width: 100%;
+}
+
+.fw-60{
+    width:60%;
+}
+
+.user-input {
+    height: 50px;
+    width: 50%;
+    background-color: #F8F9FA;
+    border: 2px solid #E9ECEF;
+    &:focus{
+        outline: none;
+        border: 2px solid #dbdbdb;
+    }
+}
+.user-textarea {
+    height: 75px;
+    width: 100%;
+    background-color: #F8F9FA;
+    border: 2px solid #E9ECEF;
+    &:focus{
+        outline: none;
+        border: 2px solid #dbdbdb;
+    }
+}
+
+.border-image img{
+    border-radius: 10px;
+    border:2px #B444F9 solid !important;
+}
+
+.web3modal-modal-lightbox{
+    z-index:100 !important;
+}
+
+[type='checkbox']:focus {
+    --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+    --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(0px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+    box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+    --tw-ring-offset-width: 0px;
+}

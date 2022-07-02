@@ -1,0 +1,66 @@
+.menu {
+    div {
+        width: 219px;
+        height: 129px;
+        background-repeat: no-repeat;
+        
+        &.home {
+            background-image: url('/svgs/home_3.svg');
+            &.active {
+                background-image: url('/svgs/home_1.svg');
+            }
+        }
+        
+        &.market {
+            background-image: url('/svgs/market_3.svg');
+            &.active {
+                background-image: url('/svgs/market_1.svg');
+            }
+        }
+        
+        &.analytics {
+            background-image: url('/svgs/analytics_3.svg');
+            &.active {
+                background-image: url('/svgs/analytics_1.svg');
+            }
+        }
+    }
+
+    &:hover {
+        div {
+            width: 219px;
+            height: 129px;
+            background-repeat: no-repeat;
+            
+            &.home {
+                background-image: url('/svgs/home_4.svg');
+                &:hover {
+                    background-image: url('/svgs/home_5.svg');
+                }
+                &.active {
+                    background-image: url('/svgs/home_2.svg');
+                }
+            }
+            
+            &.market {
+                background-image: url('/svgs/market_4.svg');
+                &:hover {
+                    background-image: url('/svgs/market_5.svg');
+                }
+                &.active {
+                    background-image: url('/svgs/market_2.svg');
+                }
+            }
+            
+            &.analytics {
+                background-image: url('/svgs/analytics_4.svg');
+                &:hover {
+                    background-image: url('/svgs/analytics_5.svg');
+                }
+                &.active {
+                    background-image: url('/svgs/analytics_2.svg');
+                }
+            }
+        }
+    }
+}

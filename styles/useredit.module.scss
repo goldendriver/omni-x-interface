@@ -1,0 +1,61 @@
+.sidemenu {
+    ul {
+        li {
+            line-height: 60px;
+
+            button {
+                color: #ADB5BD;
+                text-decoration: none;
+                font-size: 18px;
+                padding-left: 0px;
+                font-weight: 500;
+                width: 100%;
+                border-right: 4px solid transparent;
+                outline: none;
+
+                &:hover {
+                    background: #f5f5f5;
+                }
+
+                svg {
+                    fill: #ADB5BD;
+                }
+            }
+        }
+
+        .current {
+            button {
+                color: #1E1C21;
+                background: #f5f5f5;
+                border-right-color: #B444F9;
+            }
+
+            svg {
+                fill: #1E1C21;
+            }
+        }
+    }
+}
+
+.etherspan {
+    position: relative;
+    input {
+        padding-right: 40px;
+        background: #F8F9FA;
+        border: 2px solid #ADB5BD;
+        border-radius: 4px;
+    }
+    &::after {
+        position: absolute;
+        top: 0;
+        content: "ETH";
+        right: 5px;
+        font-family: 'Circular Std';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+
+        color: #ADB5BD;
+    }
+}
